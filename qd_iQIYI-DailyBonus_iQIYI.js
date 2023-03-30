@@ -23,8 +23,9 @@ JsBox, Node.js用户获取Cookie说明：
 方法一手机：开启抓包, 网页登录 https://m.iqiyi.com/user.html 返回抓包APP搜索URL关键字 apis/user/info.action 复制请求头中的Cookie字段填入以下脚本变量或环境变量中即可
 
 方法二PC：网页登录 https://www.iqiyi.com 按F12控制台执行 console.log(document.cookie) 复制打印的Cookie填入以下脚本变量或环境变量中即可
+定时
+cron: 0 7,12,18 * * *
 */
-
 var cookie = ''; //单引号内填入手动获取的Cookie
 
 var barkKey = ''; //Bark APP 通知推送Key
