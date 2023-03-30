@@ -1,8 +1,6 @@
 /*
-[task_local]
-#机场签到
-0 7 * * * , tag=机场签到, enabled=true
 机场签到
+
 多账号@隔开
 格式：token
 ==========
@@ -11,6 +9,8 @@
 export airportCookie=''    //多账号@隔开
 举个例子：export airportCookie='token@token'
 ==========
+定时
+cron: 0 7,12,18 * * *
 */
 
 
