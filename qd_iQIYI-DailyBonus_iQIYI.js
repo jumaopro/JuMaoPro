@@ -25,6 +25,7 @@ JsBox, Node.js用户获取Cookie说明：
 方法二PC：网页登录 https://www.iqiyi.com 按F12控制台执行 console.log(document.cookie) 复制打印的Cookie填入以下脚本变量或环境变量中即可
 定时
 cron: 0 7,12,18 * * *
+const $ = new Env("爱奇艺会员签到")
 */
 var cookie = ''; //单引号内填入手动获取的Cookie
 
