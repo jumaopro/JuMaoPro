@@ -1,7 +1,8 @@
 /*
 阿里云盘签到
 定时：一天一两次
-cron "0 9 * * *
+cron "0 9,18 * * *
+const $ = new Env("阿里云盘签到")
 */
 
 const axios = require('axios')
