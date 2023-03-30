@@ -11,6 +11,7 @@ export airportCookie=''    //多账号@隔开
 ==========
 定时
 cron: 0 7,12,18 * * *
+const $ = new Env("GlaDOS签到")
 */
 
 
