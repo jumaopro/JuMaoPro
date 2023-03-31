@@ -5,6 +5,7 @@
  * @Last Modified time: 2022-03-20 13:57:10
  * @Desc: 青龙依赖
  * @From: https://github.com/whyour/qinglong/issues/1369
+ cron: 1 1 1 1 1
  */
 const axios = require('axios')
 const QL_URL = 'http://127.0.0.1:5700'
